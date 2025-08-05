@@ -24,7 +24,6 @@ function preload() {
 function setup() {
   createCanvas(900, 700);
   textAlign(CENTER, CENTER);
-  sonVex.loop();
   processNiveau(niveau);
 }
 
@@ -61,6 +60,10 @@ function drawMenu() {
 function keyPressed() {
   if (keyCode === 32 && etat === 0) {  // ESPACE
     etat = 1;
+    if (sonVex.isLoaded()) {
+      sonVex.loop();
+    }
+
   } else if (key === 'r' || key === 'R') {
     loadNiveau(niveauActuel);
   } else if (etat === 1) {
