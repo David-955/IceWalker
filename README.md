@@ -1,6 +1,6 @@
 # ❄️ Ice Walker (2019) - Jeu de puzzle glissant
 
-[![Jouer en ligne](https://img.shields.io/badge/Jouer-En%20ligne-blue)](https://)
+[![Jouer en ligne](https://img.shields.io/badge/Jouer-En%20ligne-blue)](https://david-955.github.io/IceWalker/)
 
 *Projet académique - Licence Informatique 1ère année - UEVE 2019*
 
@@ -36,5 +36,3 @@ Jeu de puzzle développé dans le cadre universitaire où le joueur contrôle un
 - Système de redémarrage instantané
 - Musique et effets sonores
 - Interface minimaliste et intuitive
-
-## 📁 Structure du projet
